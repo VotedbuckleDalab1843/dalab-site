@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diversity in Adolescence Lab | Michigan State University</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#fff;--alt:#f4f5f3;--ink:#1d2523;--muted:#58645f;--green:#18453b;--green2:#0d2c25;--gold:#c9a24a;--line:#dcdfdb;--link:#18453b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101715;--alt:#17211e;--ink:#e9eeec;--muted:#a1afaa;--line:#2a3733;--link:#7fd1b9}}
+:root[data-theme="dark"]{--bg:#101715;--alt:#17211e;--ink:#e9eeec;--muted:#a1afaa;--line:#2a3733;--link:#7fd1b9}
+*{box-sizing:border-box}
+html{height:100%;scroll-padding-top:calc(80px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+h1,h2,h3,h4{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;line-height:1.25;margin:0 0 .5em;font-weight:700}
+h2{font-size:2rem}h3{font-size:1.25rem}
+a{color:var(--link)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:0;z-index:30;background:var(--green2);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:68px;flex-wrap:wrap}
+.brand{color:#fff;text-decoration:none;font-family:"Source Serif 4",Georgia,serif;font-weight:700;font-size:1.05rem;line-height:1.2}
+.brand small{display:block;font:500 .68rem Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+nav{display:flex;gap:2px;align-items:center;flex-wrap:wrap}
+nav a{color:#e6efec;text-decoration:none;padding:8px 12px;font-size:.88rem;border-bottom:2px solid transparent}
+nav a:hover,nav a.on{color:#fff;border-color:var(--gold)}
+nav a.cta{background:var(--gold);color:#1b1a14;font-weight:600;border-radius:3px;margin-left:8px;border:0}
+.hero{background:linear-gradient(135deg,rgba(13,44,37,.96),rgba(24,69,59,.9)),repeating-linear-gradient(45deg,#18453b 0 12px,#1c4d42 12px 24px);color:#fff;padding:110px 0 100px}
+.hero .k{color:var(--gold);letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;font-weight:600;margin-bottom:14px}
+.hero h1{font:700 clamp(2.4rem,5.5vw,3.8rem)/1.1 "Source Serif 4",Georgia,serif;margin:0 0 22px;max-width:16ch}
+.hero p{max-width:60ch;font-size:1.1rem;color:#dbe8e4}
+.btn{display:inline-block;padding:12px 26px;border:2px solid var(--gold);color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;letter-spacing:.04em;margin-top:22px;border-radius:2px;background:transparent}
+.btn:hover{background:var(--gold);color:#1b1a14}
+.btn.fill{background:var(--green);border-color:var(--green);color:#fff}
+.btn.fill:hover{background:var(--green2)}
+.pg{display:none;padding:56px 0 72px}
+.pg.on{display:block}
+.pg h2{border-bottom:3px solid var(--gold);display:inline-block;padding-bottom:6px;margin-bottom:28px}
+.lead{font-size:1.15rem;color:var(--muted);max-width:68ch}
+.band{background:var(--alt);border-block:1px solid var(--line);padding:56px 0}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+.feat{border-left:4px solid var(--gold);padding:4px 0 4px 20px}
+.feat .d{font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.proj{padding:22px 0;border-top:1px solid var(--line)}
+.proj h3{margin-bottom:6px}.proj .f{font-size:.88rem;color:var(--muted)}
+.team{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:26px 22px;margin:18px 0 40px}
+.av{width:100%;aspect-ratio:1/1;max-width:170px;background:var(--green);color:#fff;display:grid;place-items:center;font:600 2.2rem "Source Serif 4",Georgia,serif;margin-bottom:10px;border-bottom:4px solid var(--gold)}
+.team h4{font-size:1.02rem;margin:0}.team .r{font-size:.84rem;color:var(--muted);margin:2px 0 6px}.team p{font-size:.9rem;margin:0}
+h3.sec{font-size:.85rem;font-family:Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:8px;margin-top:36px}
+.pi{display:grid;grid-template-columns:200px 1fr;gap:32px;margin-top:18px}
+.pi .av{max-width:200px}
+.yr{font:700 1.3rem "Source Serif 4",Georgia,serif;color:var(--green);margin:32px 0 6px}
+:root[data-theme="dark"] .yr,:root:not([data-theme="light"]) .yr{color:inherit}
+.pub{padding:10px 0 10px 28px;text-indent:-28px;font-size:.95rem;border-bottom:1px solid var(--line)}
+.note{font-size:.88rem;color:var(--muted)}
+footer{background:var(--green2);color:#c9d9d4;padding:44px 0 36px;font-size:.9rem}
+footer .cols{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+footer h4{color:#fff;font-size:.8rem;font-family:Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+footer a{color:#e9f1ee;display:block;text-decoration:none;padding:2px 0}footer a:hover{color:var(--gold)}
+@media(max-width:700px){.pi{grid-template-columns:1fr}.hero{padding:72px 0}nav a{padding:6px 8px;font-size:.82rem}}
+#v-team .wrap{max-width:1180px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:2px solid var(--line);margin-bottom:32px}
+.tb{font:600 .9rem Inter,sans-serif;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;padding:12px 18px;color:var(--muted);cursor:pointer}
+.tb:hover{color:var(--ink)}.tb.on{color:var(--link);border-color:var(--gold)}
+.tp{display:none}.tp.on{display:block}
+.prof{display:grid;grid-template-columns:150px 1fr;gap:28px;padding:28px 0;border-bottom:1px solid var(--line)}
+.prof .av{max-width:150px;font-size:2.4rem}
+.prof h4{font-size:1.35rem;margin:0}.prof .r{font-size:.88rem;font-weight:600;color:var(--muted);margin:2px 0 12px}.prof p{margin:0 0 10px}
+@media(max-width:700px){.prof{grid-template-columns:1fr;gap:14px}.prof .av{max-width:110px}}
+.grp{margin:0}.grp img{width:100%;height:auto;display:block;border-bottom:4px solid var(--gold)}.grp figcaption{font-size:.88rem;color:var(--muted);padding-top:8px}
+.av{overflow:hidden}.av img{width:100%;height:100%;object-fit:cover;display:block}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#home">Diversity in Adolescence Lab<small>Michigan State University</small></a>
+<nav id="nav"><a href="#about">About</a><a href="#team">Our Team</a><a href="#research">Research Projects</a><a href="#publications">Publications</a><a href="#join">Join the Lab</a><a href="#contact">Contact Us</a><a class="cta" href="#join">Participate</a></nav>
+</div></header>
+
+<main>
+<div class="pg on" id="v-home" style="padding:0">
+<section class="hero"><div class="wrap">
+<div class="k">Department of Human Development and Family Studies</div>
+<h1>Diversity in Adolescence Lab</h1>
+<p>We study how adolescents develop within diverse cultural, family, peer, and school contexts, with a particular focus on ethnic/racial diversity, discrimination, sleep, and well-being.</p>
+<a class="btn" href="#about">Learn more about the lab</a>
+</div></section>
+<section class="band"><div class="wrap"><div class="cols">
+<div><h3>Our mission</h3><p>To conduct cutting-edge developmental research and to train promising young scholars interested in human development and related areas.</p></div>
+<div><h3>Our approach</h3><p>We combine longitudinal and daily diary designs with sleep actigraphy and salivary cortisol to understand short-term and long-term developmental processes.</p></div>
+<div><h3>Our community</h3><p>Led by Dr. Yijie Wang, the lab engages postdoctoral fellows, graduate students, and undergraduates from many backgrounds.</p></div>
+</div></div></section>
+<section style="padding:56px 0 0"><div class="wrap"><h2 style="font-size:1.6rem">Meet our team</h2><figure class="grp"><img src="images/team-photo.jpg" alt="Current members of the Diversity in Adolescence Lab standing together outdoors on the Michigan State University campus" loading="lazy"><figcaption>Our current team</figcaption></figure></div></section>
+<section style="padding:56px 0"><div class="wrap">
+<h2 style="font-size:1.6rem">Recent news</h2>
+<div class="cols" style="margin-top:20px">
+<div class="feat"><div class="d">January 2025</div><h3>Children’s sleep disparities</h3><p>Our study on racial and ethnic differences in children’s sleep variability was featured by MSU Today. <a href="https://msutoday.msu.edu/news/2025/msu-study-finds-children-of-color-experience-more-variability-in-sleep-times">Read more</a></p></div>
+<div class="feat"><div class="d">February 2024</div><h3>APA early career award</h3><p>Dr. Yijie Wang received the APA Distinguished Scientific Award for an Early Career Contribution to Psychology (Developmental Psychology).</p></div>
+<div class="feat"><div class="d">December 2023</div><h3>Graduate student honor</h3><p>Youchuan Zhang won the MSU College of Social Science Graduate Student Research Award.</p></div>
+</div></div></section>
+</div>
+
+<div class="pg" id="v-about"><div class="wrap">
+<h2>About the Lab</h2>
+<p class="lead">The Diversity in Adolescence Lab is a research lab in the Department of Human Development and Family Studies at Michigan State University. It is directed by Dr. Yijie Wang and engages undergraduate and graduate students interested in adolescent development within diverse contexts.</p>
+<p>We conduct research on adolescent development in the psychological, physical, and cognitive domains, with a particular interest in cultural and ethnic/racial diversity. Our projects examine socioemotional well-being, academics, health behaviors, sleep, stress responses, and executive functioning.</p>
+<p>We seek to understand how these outcomes are shaped by family, peer, school, and neighborhood environments, and we are especially interested in the opportunities and challenges that come with diversity, such as ethnic/racial discrimination, socialization, and identity development.</p>
+</div></div>
+
+<div class="pg" id="v-team"><div class="wrap">
+<h2>Our Team</h2>
+<p class="lead" style="margin-bottom:24px">Meet the researchers and trainees of the Diversity in Adolescence Lab.</p>
+<div style="margin-bottom:32px"><figure class="grp"><img src="images/team-photo.jpg" alt="Current members of the Diversity in Adolescence Lab standing together outdoors on the Michigan State University campus" loading="lazy"><figcaption>Our current team</figcaption></figure></div>
+<div class="tabs" id="tabs"><button class="tb on" data-t="dir">Director</button><button class="tb" data-t="post">Postdoctoral</button><button class="tb" data-t="grad">Graduate Students</button><button class="tb" data-t="ug">Undergraduates</button><button class="tb" data-t="alum">Alumni</button></div>
+<div class="tp on" id="t-dir"><h3 class="sec" style="margin-top:0">Director</h3><article class="prof"><div class="av">YW</div><div><h4>Yijie Wang, Ph.D.</h4><div class="r">Director · Associate Professor, Human Development and Family Studies</div><p>Dr. Wang earned her B.A. in Psychology at Peking University and her Ph.D. in Human Development and Family Sciences at the University of Texas at Austin. Her research focuses on adolescent development in the context of race, ethnicity, immigration, and social inequality.</p><p>She studies socio-cultural factors (such as ethnic/racial socialization), bio-behavioral factors (such as sleep), and cognitive factors (such as executive function) that can help adolescents thrive despite racism and inequality. Her studies use longitudinal and daily diary designs to understand both short-term and long-term developmental mechanisms.</p><p>Her work has been funded by the National Institutes of Health and the William T. Grant Foundation, and it appears in <i>Child Development</i>, <i>Developmental Psychology</i>, <i>Journal of Adolescent Health</i>, and <i>JAMA</i>. She received the APS Rising Star Award in 2019 and the APA Distinguished Scientific Award for an Early Career Contribution to Psychology in 2024.</p></div></article></div><div class="tp" id="t-post"><h3 class="sec" style="margin-top:0">Postdoctoral Trainee</h3><article class="prof"><div class="av">YZ</div><div><h4>Youchuan Zhang, Ph.D.</h4><div class="r">Postdoctoral Research Fellow</div><p>Dr. Zhang holds a Bachelor of Medicine from Sun Yat-sen University, a Master of Social Science in Psychology from the University of Hong Kong, and a Ph.D. in Human Development and Family Studies from Michigan State University.</p><p>His research focuses on disadvantaged youth, especially ethnic-racial minority adolescents in the U.S. and adolescents from low-income families in rural China. He examines how social contexts, particularly structural and neighborhood conditions, shape psychosocial and bio-behavioral development.</p><p>His methods include daily diaries, longitudinal models, salivary sampling, and actigraphy-based sleep assessment, analyzed with multilevel and dynamic structural equation modeling and latent growth modeling.</p></div></article></div><div class="tp" id="t-grad"><h3 class="sec" style="margin-top:0">Current Graduate Students</h3><article class="prof"><div class="av">QH</div><div><h4>Qi Huang</h4><div class="r">Doctoral Student · Diversity, Youth, and Family Development (DYAD)</div><p>Qi holds a bachelor’s degree in Psychology from Michigan State University. Qi’s research looks at the academic, cultural, and psychological adjustment of international students who struggle academically, especially Chinese international students on academic probation or facing dismissal.</p><p>Qi also contributes to research on discrimination, cultural socialization, and well-being among ethnic/racial minority adolescents and young adults.</p></div></article><article class="prof"><div class="av">JL</div><div><h4>Jiayi Liu</h4><div class="r">Doctoral Student · Diversity, Youth, and Family Development (DYAD)</div><p>Jiayi studies the cultural beliefs, values, and practices behind everyday family interactions, with a focus on how parenting affects youth well-being in changing cultural contexts such as modernization and social stratification. The goal is to inform clinical practice and policy through a sociocultural lens.</p><p>Using mixed methods, Jiayi is studying Chinese international students’ views of their parents and the role of parental support in acculturation, as well as microaggressions and ethnic-racial socialization in adoptive families in the U.S. Outside of research, Jiayi enjoys traveling, cooking, and board games.</p></div></article><article class="prof"><div class="av">SL</div><div><h4>Sylvia Lin</h4><div class="r">Doctoral Student · Diversity, Youth, and Family Development (DYAD)</div><p>Sylvia holds a bachelor’s degree in psychology from Saint Louis University. Her research centers on ethnic/racial identity development and socialization among Asian and Asian American youth, and on how neighborhoods, communities, and peers affect identity and mental health.</p><p>She contributes to a project on how daily peer racial/ethnic interactions act as sources of stress or support for outcomes such as identity, school engagement, and school belonging. With a background in evidence-based practice, she aims to translate research into programs that support Asian and Asian American youth.</p></div></article><article class="prof"><div class="av">DK</div><div><h4>Daeun Kim</h4><div class="r">Doctoral Student · Human Development and Family Studies</div><p>Daeun is from South Korea and is advised by Dr. Desiree Baolian Qin and Dr. Yijie Wang. Her research examines parent-child relationships and adolescent development in cultural context, including how culture shapes differences in these relationships.</p><p>She is especially interested in parents’ belief systems, such as belief in meritocracy, and how they relate to adolescents’ own beliefs, with a focus on East Asian families and Asian American immigrant families. She enjoys walking, hiking, and a long Saturday nap.</p></div></article><article class="prof"><div class="av">JZ</div><div><h4>Jiaxuan Zhao</h4><div class="r">Doctoral Student · Diversity, Youth, and Family Development (DYAD)</div><p>Jiaxuan earned a B.A. in Psychology from Miami University (Oxford) and an M.S. in Interdisciplinary Studies in Human Development from the University of Pennsylvania.</p><p>Her research focuses on executive function, risky behaviors, and substance use among ethnic/racial minority adolescents, and on how peer and parent-child relationships influence adolescent development.</p></div></article><article class="prof"><div class="av">YL</div><div><h4>Yuze Liu</h4><div class="r">Master’s Student · Human Development and Family Studies</div><p>Yuze holds a bachelor’s degree in Psychology. Yuze’s research focuses on adolescent identity development, particularly how peer relationships and cultural transformation affect identity confusion and psychosocial stress.</p><p>The long-term goal is to deepen academic and social understanding of immigrant youth development in cross-cultural contexts through research and teaching.</p></div></article></div><div class="tp" id="t-ug"><h3 class="sec" style="margin-top:0">Current Undergraduate Research Assistants</h3><article class="prof"><div class="av">DG</div><div><h4>Delaney Garrett</h4><div class="r">Undergraduate Research Assistant · Honors College Professorial Assistant</div><p>Delaney is pursuing a B.A. in psychology with minors in Human Behavior and Social Services and in Law, Justice, and Public Policy, and assists with multiple lab projects.</p><p>Her interests include child and adolescent development and educational inequalities related to disability, gender, and race/ethnicity. She cares about the development, effectiveness, and accessibility of resources for children with diverse needs, and the systemic factors that shape their experiences.</p></div></article><article class="prof"><div class="av">AL</div><div><h4>Adeline Loftis</h4><div class="r">Undergraduate Research Assistant · Honors College Professorial Assistant</div><p>Adeline is a sociology major working with Dr. Wang on several research projects. She is passionate about youth development, well-being, and health.</p><p>She wants to learn how upbringing circumstances, such as growing up around substance abuse, mistreatment, poverty, bullying, and education disparities, affect young people in the short and long term.</p></div></article></div><div class="tp" id="t-alum"><h3 class="sec" style="margin-top:0">Previous Trainees and Students</h3><article class="prof"><div class="av">EJ</div><div><h4>Elizabeth Jelsma, Ph.D.</h4><div class="r">Former Postdoctoral Fellow</div><p>Now an Assistant Professor at the University of Houston. <a href="https://hri.uh.edu/faculty-members/elizabeth-jelsma">Website</a></p></div></article><article class="prof"><div class="av">MC</div><div><h4>Mingzhang Chen, Ph.D.</h4><div class="r">Former Doctoral Student</div><p>Now a Postdoctoral Fellow at the University of Alberta. <a href="https://www.ualberta.ca/en/psychology/people/postdocs-ra.html">Website</a></p></div></article><article class="prof"><div class="av">JL</div><div><h4>Ji Hyun Lee, Ph.D.</h4><div class="r">Former Doctoral Student</div><p>Now an Assistant Professor at Montana State University. <a href="https://www.montana.edu/hdch/directory/2457664/jihyun-lee">Website</a></p></div></article><article class="prof"><div class="av">SL</div><div><h4>Shizhu Liu, Ph.D.</h4><div class="r">Former Doctoral Student</div><p>Now a Data Scientist at Nordstrom.</p></div></article><article class="prof"><div class="av">FB</div><div><h4>Faizun Bakth</h4><div class="r">Former Undergraduate · Summer Research Opportunities Program (SROP)</div><p>Faizun joined the lab through SROP while studying Forensic Psychology at John Jay College of Criminal Justice, and is now a doctoral student at Wayne State University. Faizun’s interests include the social and moral development of minority children with abuse histories. The summer project linked peer ethnic/racial victimization to academic performance, with sleep (measured by actigraphy) as a protective factor.</p></div></article><article class="prof"><div class="av">ES</div><div><h4>Emily Saxton</h4><div class="r">Former Undergraduate · Professorial Assistant</div><p>A St. Louis native and member of the Social Science Scholars Program, Emily assisted with the lab’s adolescent development work and planned her own research project. Her interests center on social innovation in communities facing adversity and poverty. She volunteered with youth programs such as Girl Scouts and studied Spanish.</p></div></article><article class="prof"><div class="av">KL</div><div><h4>Kevin Lesser</h4><div class="r">Former Undergraduate · Research Assistant, PAD Project</div><p>Kevin studied Human Biology through Lyman Briggs College. He was interested in how minority students’ backgrounds shape daily interactions and health, how gender affects student-professor interactions, and how students learn challenging science. He volunteered with marginalized groups of children.</p></div></article><article class="prof"><div class="av">CS</div><div><h4>Claudia Marie Salwin</h4><div class="r">Former Undergraduate · Research Assistant, PAD Project</div><p>Claudia studied Nutritional Science (pre-med) and assisted with the PAD project. After graduating she planned to work as a research assistant at the University of Michigan Hospital on opioid use and pain, and contribute to the Michigan Genomics Initiative, before medical school.</p></div></article><article class="prof"><div class="av">AH</div><div><h4>Audrey Heobecke</h4><div class="r">Former Undergraduate · Research Assistant</div><p>Audrey graduated from MSU with degrees in Psychology and Human Biology and worked as a Behavior Technician at the Early Learning Institute, delivering ABA-based teaching for children with autism. Her interests include resources for marginalized populations (including those with disabilities and low socioeconomic status) and improving educational outcomes. She enjoys reading and kayaking.</p></div></article><article class="prof"><div class="av">EI</div><div><h4>Eagan Ingrody</h4><div class="r">Former Undergraduate · Research Assistant, PAD Project</div><p>Eagan graduated in May 2019 with a degree in Human Biology (Lyman Briggs College) and a minor in Science, Technology, Environment, and Public Policy, and planned to attend medical school. Eagan’s interests include healthcare inequalities related to race/ethnicity, gender, and socioeconomic status.</p></div></article></div></div></div>
+
+<div class="pg" id="v-research"><div class="wrap">
+<h2>Research Projects</h2>
+<div class="proj"><h3>Discrimination &amp; Substance Use Project</h3><p>Investigates the influence of discrimination on adolescents’ substance use outcomes using data from the Adolescent Brain Cognitive Development (ABCD) Study.</p><div class="f">Funding: National Institute on Minority Health and Health Disparities</div></div>
+<div class="proj"><h3>Peers and Diversity (PAD) Project</h3><p>Investigates how ethnic/racial and cultural processes in peer groups influence adolescents’ cognitive functioning, psychological well-being, academics, and sleep. The project follows 9th graders in high school, collecting daily diary and sleep actigraphy data annually.</p><div class="f">Funding: William T. Grant Foundation; MSU Social Science College Faculty Initiatives Fund</div></div>
+<div class="proj"><h3>Peers in Rural China Project</h3><p>Investigates how peer relationships influence early adolescents’ psychological well-being, sleep, and cortisol output in rural China. The project sampled 7th and 8th graders in a rural boarding school, collecting daily diary and salivary cortisol data.</p></div>
+<div class="proj"><h3>Congruence &amp; Social Norm Project</h3><p>Investigates adolescents’ substance use and risky sexual behaviors in diverse ethnic groups using nationally representative data from the National Longitudinal Study of Adolescent to Adult Health.</p><div class="f">Funding: National Institute on Alcohol Abuse and Alcoholism</div></div>
+</div></div>
+
+<div class="pg" id="v-publications"><div class="wrap">
+<h2>Publications</h2>
+<p class="note">Representative publications. Asterisks denote student mentees.</p>
+<div class="yr">2025</div>
+<div class="pub">Wang, Y., Zhao, Z.*, Zhang, M.*, Zhang, Y.*, Yan, J.*, Jelsma, E.*, Cham, H., Alegría, M., &amp; Yip, T. (2025). Sleep as a protective factor: Multiple forms of discrimination and substance use intention among racially and ethnically minoritized U.S. youth. <i>Journal of Adolescent Health</i>. <a href="https://www.jahonline.org/article/S1054-139X%2824%2900826-7/fulltext">Link</a></div>
+<div class="pub">Wang, Y., Zhang, Y.*, Liu, J.*, Zhao, J.*, Chen, S., &amp; He, J. (2025). Peer discrimination and diurnal cortisol output in a boarding school in rural China: Empirical findings and methodological considerations. <i>Developmental Psychology</i>. <a href="https://psycnet.apa.org/record/2025-70003-001">Link</a></div>
+<div class="pub">Jelsma, E.*, Wang, Y., Cham, H., Zhang, Y.*, Yan, J.*, Zhao, Z.*, Alegría, M., &amp; Yip, T. (2025). Everyday ethnic discrimination and early substance use based on hair samples in high-risk racial/ethnic minority early adolescents. <i>Cultural Diversity and Ethnic Minority Psychology</i>.</div>
+<div class="yr">2024</div>
+<div class="pub">Wang, Y., Zhao, Z.*, Zhang, Y.*, Yan, J.*, Zhang, M.*, Jelsma, E.*, Johnson, S.*, Cham, H., Alegría, M., &amp; Yip, T. (2024). Race, ethnicity, and sleep in U.S. children. <i>JAMA Network Open</i>. <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827622">Link</a></div>
+<div class="pub">Wang, Y., Zhang, Y.*, Zhao, Z.*, Jelsma, E.*, Yan, J.*, Johnson, S.*, Cham, H., Alegría, M., &amp; Yip, T. (2024). Multiple discrimination and substance use intention in late childhood: Findings from the ABCD Study. <i>Journal of Adolescent Health</i>.</div>
+<div class="pub">Zhang, Y.*, &amp; Wang, Y. (2024). Daily social support and school belonging among rural Chinese adolescents: Variations by parental migration. <i>Journal of Research on Adolescence</i>.</div>
+<div class="pub">Wang, Y., Huang, Q.*, Lin, S.*, Chen, M.*, &amp; Zhang, Y.* (2024). Daily ethnic/racial support from family and peers: Changes from before to during the COVID-19 pandemic. <i>Child Development</i>.</div>
+<div class="yr">2023</div>
+<div class="pub">Wang, Y., Chen, M.*, Zhang, Y.*, &amp; Chen, Y. (2023). Daily associations between adolescents’ executive function and school engagement: The role of ethnic/racial discrimination. <i>Developmental Psychology</i>.</div>
+<div class="pub">Wang, Y., Zhang, Y.*, &amp; Wadsworth, H.* (2023). Family and peer ethnic/racial socialization in adolescents’ everyday life: A daily transactional model with ethnic/racial identity and discrimination. <i>Child Development</i>.</div>
+<div class="pub">Wang, Y., &amp; Lin, S.* (2023). Peer ethnic/racial socialization in adolescence: Current knowledge and future directions. <i>Infant and Child Development</i>.</div>
+<div class="pub">Bakth, F.*, Chen, M.*, &amp; Wang, Y. (2023). Adolescents’ experiences of peer ethnic/racial victimization and school engagement in everyday life: Sleep as a moderator. <i>Sleep Health</i>.</div>
+</div></div>
+
+<div class="pg" id="v-join"><div class="wrap">
+<h2>Join the Lab</h2>
+<p class="lead">Dr. Wang welcomes inquiries from prospective Ph.D. students, and the lab invites undergraduate and graduate students interested in adolescent development to get involved in our research projects.</p>
+<p>To get started, send Dr. Wang a short email with your background, your research interests, and what draws you to the lab’s work. Prospective Ph.D. students should also mention the term in which they hope to begin.</p>
+<a class="btn fill" href="mailto:yjwang@msu.edu?subject=Interested%20in%20the%20Diversity%20in%20Adolescence%20Lab">Email Dr. Wang</a>
+</div></div>
+
+<div class="pg" id="v-contact"><div class="wrap">
+<h2>Contact Us</h2>
+<p><b>Dr. Yijie Wang</b><br>Department of Human Development and Family Studies<br>Michigan State University<br>Human Ecology Building, 552 W Circle Dr<br>East Lansing, MI 48824</p>
+<p>Email: <a href="mailto:yjwang@msu.edu">yjwang@msu.edu</a><br>Department office: (517) 355-7680</p>
+</div></div>
+</main>
+
+<footer><div class="wrap"><div class="cols">
+<div><h4>Our Work</h4><a href="#about">About</a><a href="#research">Research Projects</a><a href="#publications">Publications</a></div>
+<div><h4>Get Involved</h4><a href="#team">Our Team</a><a href="#join">Join the Lab</a><a href="#contact">Contact Us</a></div>
+<div><h4>Michigan State University</h4>Human Ecology Building<br>552 W Circle Dr<br>East Lansing, MI 48824</div>
+</div><p style="margin:28px 0 0;font-size:.8rem;opacity:.8">© 2026 Diversity in Adolescence Lab · Department of Human Development and Family Studies</p></div></footer>
+
+<script>
+function route(){var h=(location.hash||'#home').slice(1);if(!document.getElementById('v-'+h))h='home';
+document.querySelectorAll('.pg').forEach(function(p){p.classList.toggle('on',p.id==='v-'+h)});
+document.querySelectorAll('#nav a:not(.cta)').forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+h)});
+window.scrollTo(0,0);}
+document.getElementById('tabs').addEventListener('click',function(e){var t=e.target.dataset.t;if(!t)return;
+document.querySelectorAll('.tb').forEach(function(b){b.classList.toggle('on',b.dataset.t===t)});
+document.querySelectorAll('.tp').forEach(function(x){x.classList.toggle('on',x.id==='t-'+t)});});
+window.addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
